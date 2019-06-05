@@ -1,4 +1,4 @@
-def project = 'cd-jenkins'
+def project = 'k8smlx'
 def  appName = 'gceme'
 def  feSvcName = "${appName}-frontend"
 def  imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
